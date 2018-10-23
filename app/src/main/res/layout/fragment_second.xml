@@ -6,6 +6,15 @@
     tools:context=".SecondFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:text="Scan"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="101dp" />
 
 </FrameLayout>

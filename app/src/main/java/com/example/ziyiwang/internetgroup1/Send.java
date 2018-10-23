@@ -85,7 +85,7 @@ public class Send extends AppCompatActivity {
                 String topic = "foo";
                 if (str2 != null)
                     topic = str2;
-                String payload = NfcActivity.mTagText;
+                String payload = NfcActivity.mTagText +","+Barcode_acitivity.barcode;
                 byte[] encodedPayload = new byte[0];
                 try {
                     encodedPayload = payload.getBytes("UTF-8");
